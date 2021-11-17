@@ -1,0 +1,20 @@
+= Views
+{localdatetime}
+
+== Medikamentensuche
+
+image::1_Medikamentensuche.png[Medikamentensuche, align="center"]
+
+Der Nutzer kann in der Suchleiste nach einem Medikament suchen, Ergebnisse werden in einer Liste dargestellt. Neben dem Medikamentnamen können Symbole erscheinen, welche für bestimmte wichtige Zusatzinformationen stehen.
+
+== Tierauswahl
+
+image::2_Tierauswahl.png[Tierauswahl, align="center"]
+
+Der Nutzer wählt aus, für welche Gruppe von Tieren das Medikament angewendet werden soll. Dazu sieht er noch einmal den Namen des Medikaments und bis zu sechs Buttons mit den Gruppen, für welche es angewendet werden kann. Grün hinterlegt sind typische Anwendungen, rot nicht explizit zugelassene (umgewidmete), aber trozdem mögliche, für welche ein Formular außerhalb der Anwendung notwendig ist.
+
+== Mengenberechnung
+
+image::3_Mengenberechnung.png[Mengenberechnung, align="center"]
+
+Der Nutzer sieht den Medikamentnamen und die Tiergruppe, für die das Medikament angewendet werden soll. Er gibt in einem Textfeld das Gewicht des Tieres und wählt aus einer Berechnungsoption aus, für die jeweils ein Infobutton danaben existiert, welcher ein Fenster mit näheren Informationen öffnet. Darunter steht die brechnete zu verabreichende Menge.
