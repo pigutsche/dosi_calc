@@ -1,11 +1,15 @@
 = Views
 {localdatetime}
 
+== Übersicht
+
+image::Overview.png[Overview, align="center"]
+
 == Medikamentensuche
 
 image::1_Medikamentensuche.png[Medikamentensuche, align="center"]
 
-Der Nutzer kann in der Suchleiste nach einem Medikament suchen, Ergebnisse werden in einer Liste dargestellt. Neben dem Medikamentnamen können Symbole erscheinen, welche für bestimmte wichtige Zusatzinformationen stehen.
+Der Nutzer kann in der Suchleiste nach einem Medikament suchen, Ergebnisse werden in einer Liste dargestellt. Neben dem Medikamentnamen können Symbole erscheinen, welche für bestimmte wichtige Zusatzinformationen stehen. Die Symbole werden in einer Legende erklärt.
 
 == Tierauswahl
 
@@ -13,8 +17,16 @@ image::2_Tierauswahl.png[Tierauswahl, align="center"]
 
 Der Nutzer wählt aus, für welche Gruppe von Tieren das Medikament angewendet werden soll. Dazu sieht er noch einmal den Namen des Medikaments und bis zu sechs Buttons mit den Gruppen, für welche es angewendet werden kann. Grün hinterlegt sind typische Anwendungen, rot nicht explizit zugelassene (umgewidmete), aber trozdem mögliche, für welche ein Formular außerhalb der Anwendung notwendig ist.
 
+image::2.5_Dialog.png[Dialog, align="center"]
+
+Wenn der Nutzer eine neue Suche starten will, muss er in einem Dialog bestätigen, dass er alle Eingaben löschen möchte.
+
 == Mengenberechnung
 
 image::3_Mengenberechnung.png[Mengenberechnung, align="center"]
 
-Der Nutzer sieht den Medikamentnamen und die Tiergruppe, für die das Medikament angewendet werden soll. Er gibt in einem Textfeld das Gewicht des Tieres und wählt aus einer Berechnungsoption aus, für die jeweils ein Infobutton danaben existiert, welcher ein Fenster mit näheren Informationen öffnet. Darunter steht die brechnete zu verabreichende Menge.
+Der Nutzer sieht den Medikamentnamen und die Tiergruppe, für die das Medikament angewendet werden soll. Er gibt in einem Textfeld das Gewicht des Tieres und wählt aus einer Verabreichungsoption aus, für die jeweils ein Infobutton daneben existiert, welcher ein Fenster mit näheren Informationen öffnet. Darunter steht die berechnete zu verabreichende Menge.
+
+image::3.5_Behandlungsinfo.png[Behandlungsinfo, align="center"]
+
+Für die ausgewählte Verabreichungsoption kann der Nutzer nähere Informationen einsehen, falls er diese benötigt.
