@@ -28,3 +28,18 @@ Die App soll von Veterinären und deren Assistenten genutzt werden.
 ### Kontext
 Die App soll auf einem Android Smartphone installiert werden. Sämtliche benötigte Daten sollen in der App vorliegen, eine Internetverbindung soll nur für eventuelle Updates nötig sein.
 
+### Struktur
+```
+Root
+|__Dokumentation
+|  |__Dev_Log
+|  |__Datenanbindung.md
+|  |__Feature_Liste.md
+|  |__Komponenten.md
+|
+|__Wireframes
+   |__VP_Projekt
+   |__images
+   |__Views.adoc
+
+```
