@@ -2,7 +2,7 @@
 ## Repo zum PBO-Projekt WS21/22
 
 ### Mitarbeiter:
-* Dirk Hoffmann
+* Dirk Zimmermann
 * Mauritius Berger
 * Piet Gutsche
  --- 
@@ -36,6 +36,13 @@ Root
 |  |__Datenanbindung.md
 |  |__Feature_Liste.md
 |  |__Komponenten.md
+|
+|__src
+|  |__playground_pages
+|     |__Page_1
+|     |__Page_2
+|     |__Page_3
+|     |__readme.md
 |
 |__Wireframes
    |__VP_Projekt
