@@ -46,7 +46,6 @@
                 console.log(r.toFixed(2));
                 this.result = r.toFixed(2);
                 //TODO change backgroundcolor of item
-
             },
 
             on_weight_enter() {
@@ -92,9 +91,5 @@
 
         font-size: 20;
         margin: 15;
-    }
-
-    .description-label {
-        margin-bottom: 15;
     }
 </style>
