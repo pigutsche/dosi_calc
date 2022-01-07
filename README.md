@@ -39,10 +39,10 @@ Root
 |
 |__src
 |  |__playground_pages
-|     |__Page_1
-|     |__Page_2
-|     |__Page_3
-|     |__readme.md
+|  |  |__Page_2
+|  |  |__Page_3
+|  |  |__readme.md
+|  |__project
 |
 |__Wireframes
    |__VP_Projekt
