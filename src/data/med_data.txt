@@ -1,0 +1,482 @@
+med_data: {
+                    Metacam: {
+                        Rind: {
+                            Schmerztherapie: {
+                                Behandlungsoptionen: [
+                                    "iv",
+                                    "im",
+                                    "Teleportation in die Zelle"
+                                ],
+                                Menge_pro_kg: [10.0, 12.0, 4.0]
+                            },
+                            Geburtseinleitung: {
+                                Behandlungsoptionen: ["iv", "im"],
+                                Menge_pro_kg: [8.0, 14.0]
+                            }
+                        },
+                        Katze: {
+                            Schmerztherapie: {
+                                Behandlungsoptionen: [
+                                    "iv",
+                                    "im",
+                                    "Teleportation in die Zelle"
+                                ],
+                                Menge_pro_kg: [2.0, 3.0, 4.0]
+                            }
+                        },
+                        Pferd: {
+                            Schmerztherapie: {
+                                Behandlungsoptionen: [
+                                    "iv",
+                                    "im",
+                                    "Teleportation in die Zelle"
+                                ],
+                                Menge_pro_kg: [10.0, 12.0, 4.0]
+                            },
+                            Geburtseinleitung: {
+                                Behandlungsoptionen: ["iv", "im"],
+                                Menge_pro_kg: [11.0, 13.0]
+                            }
+                        }
+                    },
+                    Aspirin: {
+                        Rind: {
+                            Schmerztherapie: {
+                                Behandlungsoptionen: [
+                                    "iv",
+                                    "im",
+                                    "Teleportation in die Zelle"
+                                ],
+                                Menge_pro_kg: [10.0, 12.0, 4.0]
+                            },
+                            Geburtseinleitung: {
+                                Behandlungsoptionen: ["iv", "im"],
+                                Menge_pro_kg: [8.0, 14.0]
+                            }
+                        },
+                        Katze: {
+                            Schmerztherapie: {
+                                Behandlungsoptionen: [
+                                    "iv",
+                                    "im",
+                                    "Teleportation in die Zelle"
+                                ],
+                                Menge_pro_kg: [2.0, 3.0, 4.0]
+                            }
+                        },
+                        Pferd: {
+                            Schmerztherapie: {
+                                Behandlungsoptionen: [
+                                    "iv",
+                                    "im",
+                                    "Teleportation in die Zelle"
+                                ],
+                                Menge_pro_kg: [10.0, 12.0, 4.0]
+                            },
+                            Geburtseinleitung: {
+                                Behandlungsoptionen: ["iv", "im"],
+                                Menge_pro_kg: [11.0, 13.0]
+                            }
+                        }
+                    },
+                    Benazecare: {
+                        Hund: {
+                            Schmerztherapie: {
+                                Behandlungsoptionen: [
+                                    "iv",
+                                    "im",
+                                    "Teleportation in die Zelle"
+                                ],
+                                Menge_pro_kg: [10.0, 12.0, 4.0]
+                            },
+                            Geburtseinleitung: {
+                                Behandlungsoptionen: ["iv", "im"],
+                                Menge_pro_kg: [8.0, 14.0]
+                            }
+                        },
+                        Katze: {
+                            Schmerztherapie: {
+                                Behandlungsoptionen: [
+                                    "iv",
+                                    "im",
+                                    "Teleportation in die Zelle"
+                                ],
+                                Menge_pro_kg: [2.0, 3.0, 4.0]
+                            }
+                        },
+                        Schaf: {
+                            Schmerztherapie: {
+                                Behandlungsoptionen: [
+                                    "iv",
+                                    "im",
+                                    "Teleportation in die Zelle"
+                                ],
+                                Menge_pro_kg: [10.0, 12.0, 4.0]
+                            },
+                            Geburtseinleitung: {
+                                Behandlungsoptionen: ["iv", "im"],
+                                Menge_pro_kg: [11.0, 13.0]
+                            }
+                        }
+                    },
+                    Bisolvon: {
+                        Rind: {
+                            Schmerztherapie: {
+                                Behandlungsoptionen: [
+                                    "iv",
+                                    "im",
+                                    "Teleportation in die Zelle"
+                                ],
+                                Menge_pro_kg: [10.0, 12.0, 4.0]
+                            },
+                            Geburtseinleitung: {
+                                Behandlungsoptionen: ["iv", "im"],
+                                Menge_pro_kg: [8.0, 14.0]
+                            }
+                        },
+                        Hund: {
+                            Schmerztherapie: {
+                                Behandlungsoptionen: [
+                                    "iv",
+                                    "im",
+                                    "Teleportation in die Zelle"
+                                ],
+                                Menge_pro_kg: [2.0, 3.0, 4.0]
+                            }
+                        },
+                        Schaf: {
+                            Schmerztherapie: {
+                                Behandlungsoptionen: [
+                                    "iv",
+                                    "im",
+                                    "Teleportation in die Zelle"
+                                ],
+                                Menge_pro_kg: [10.0, 12.0, 4.0]
+                            },
+                            Geburtseinleitung: {
+                                Behandlungsoptionen: ["iv", "im"],
+                                Menge_pro_kg: [11.0, 13.0]
+                            }
+                        }
+                    },
+                    Canosan: {
+                        Rind: {
+                            Schmerztherapie: {
+                                Behandlungsoptionen: [
+                                    "iv",
+                                    "im",
+                                    "Teleportation in die Zelle"
+                                ],
+                                Menge_pro_kg: [10.0, 12.0, 4.0]
+                            },
+                            Geburtseinleitung: {
+                                Behandlungsoptionen: ["iv", "im"],
+                                Menge_pro_kg: [8.0, 14.0]
+                            }
+                        },
+                        Katze: {
+                            Schmerztherapie: {
+                                Behandlungsoptionen: [
+                                    "iv",
+                                    "im",
+                                    "Teleportation in die Zelle"
+                                ],
+                                Menge_pro_kg: [2.0, 3.0, 4.0]
+                            }
+                        },
+                        Pferd: {
+                            Schmerztherapie: {
+                                Behandlungsoptionen: [
+                                    "iv",
+                                    "im",
+                                    "Teleportation in die Zelle"
+                                ],
+                                Menge_pro_kg: [10.0, 12.0, 4.0]
+                            },
+                            Geburtseinleitung: {
+                                Behandlungsoptionen: ["iv", "im"],
+                                Menge_pro_kg: [11.0, 13.0]
+                            }
+                        }
+                    },
+                    Dimazon: {
+                        Rind: {
+                            Schmerztherapie: {
+                                Behandlungsoptionen: [
+                                    "iv",
+                                    "im",
+                                    "Teleportation in die Zelle"
+                                ],
+                                Menge_pro_kg: [10.0, 12.0, 4.0]
+                            },
+                            Geburtseinleitung: {
+                                Behandlungsoptionen: ["iv", "im"],
+                                Menge_pro_kg: [8.0, 14.0]
+                            }
+                        },
+                        Katze: {
+                            Schmerztherapie: {
+                                Behandlungsoptionen: [
+                                    "iv",
+                                    "im",
+                                    "Teleportation in die Zelle"
+                                ],
+                                Menge_pro_kg: [2.0, 3.0, 4.0]
+                            }
+                        },
+                        Pferd: {
+                            Schmerztherapie: {
+                                Behandlungsoptionen: [
+                                    "iv",
+                                    "im",
+                                    "Teleportation in die Zelle"
+                                ],
+                                Menge_pro_kg: [10.0, 12.0, 4.0]
+                            },
+                            Geburtseinleitung: {
+                                Behandlungsoptionen: ["iv", "im"],
+                                Menge_pro_kg: [11.0, 13.0]
+                            }
+                        }
+                    },
+                    Equimax: {
+                        Rind: {
+                            Schmerztherapie: {
+                                Behandlungsoptionen: [
+                                    "iv",
+                                    "im",
+                                    "Teleportation in die Zelle"
+                                ],
+                                Menge_pro_kg: [10.0, 12.0, 4.0]
+                            },
+                            Geburtseinleitung: {
+                                Behandlungsoptionen: ["iv", "im"],
+                                Menge_pro_kg: [8.0, 14.0]
+                            }
+                        },
+                        Katze: {
+                            Schmerztherapie: {
+                                Behandlungsoptionen: [
+                                    "iv",
+                                    "im",
+                                    "Teleportation in die Zelle"
+                                ],
+                                Menge_pro_kg: [2.0, 3.0, 4.0]
+                            }
+                        },
+                        Pferd: {
+                            Schmerztherapie: {
+                                Behandlungsoptionen: [
+                                    "iv",
+                                    "im",
+                                    "Teleportation in die Zelle"
+                                ],
+                                Menge_pro_kg: [10.0, 12.0, 4.0]
+                            },
+                            Geburtseinleitung: {
+                                Behandlungsoptionen: ["iv", "im"],
+                                Menge_pro_kg: [11.0, 13.0]
+                            }
+                        }
+                    },
+                    Galastop: {
+                        Schaf: {
+                            Schmerztherapie: {
+                                Behandlungsoptionen: [
+                                    "iv",
+                                    "im",
+                                    "Teleportation in die Zelle"
+                                ],
+                                Menge_pro_kg: [10.0, 12.0, 4.0]
+                            },
+                            Geburtseinleitung: {
+                                Behandlungsoptionen: ["iv", "im"],
+                                Menge_pro_kg: [8.0, 14.0]
+                            }
+                        },
+                        Katze: {
+                            Schmerztherapie: {
+                                Behandlungsoptionen: [
+                                    "iv",
+                                    "im",
+                                    "Teleportation in die Zelle"
+                                ],
+                                Menge_pro_kg: [2.0, 3.0, 4.0]
+                            }
+                        },
+                        Pferd: {
+                            Schmerztherapie: {
+                                Behandlungsoptionen: [
+                                    "iv",
+                                    "im",
+                                    "Teleportation in die Zelle"
+                                ],
+                                Menge_pro_kg: [10.0, 12.0, 4.0]
+                            },
+                            Geburtseinleitung: {
+                                Behandlungsoptionen: ["iv", "im"],
+                                Menge_pro_kg: [11.0, 13.0]
+                            }
+                        }
+                    },
+                    Loxicom: {
+                        Rind: {
+                            Schmerztherapie: {
+                                Behandlungsoptionen: [
+                                    "iv",
+                                    "im",
+                                    "Teleportation in die Zelle"
+                                ],
+                                Menge_pro_kg: [10.0, 12.0, 4.0]
+                            },
+                            Geburtseinleitung: {
+                                Behandlungsoptionen: ["iv", "im"],
+                                Menge_pro_kg: [8.0, 14.0]
+                            }
+                        },
+                        Katze: {
+                            Schmerztherapie: {
+                                Behandlungsoptionen: [
+                                    "iv",
+                                    "im",
+                                    "Teleportation in die Zelle"
+                                ],
+                                Menge_pro_kg: [2.0, 3.0, 4.0]
+                            }
+                        },
+                        Pferd: {
+                            Schmerztherapie: {
+                                Behandlungsoptionen: [
+                                    "iv",
+                                    "im",
+                                    "Teleportation in die Zelle"
+                                ],
+                                Menge_pro_kg: [10.0, 12.0, 4.0]
+                            },
+                            Geburtseinleitung: {
+                                Behandlungsoptionen: ["iv", "im"],
+                                Menge_pro_kg: [11.0, 13.0]
+                            }
+                        }
+                    },
+                    Panacur: {
+                        Rind: {
+                            Schmerztherapie: {
+                                Behandlungsoptionen: [
+                                    "iv",
+                                    "im",
+                                    "Teleportation in die Zelle"
+                                ],
+                                Menge_pro_kg: [10.0, 12.0, 4.0]
+                            },
+                            Geburtseinleitung: {
+                                Behandlungsoptionen: ["iv", "im"],
+                                Menge_pro_kg: [8.0, 14.0]
+                            }
+                        },
+                        Katze: {
+                            Schmerztherapie: {
+                                Behandlungsoptionen: [
+                                    "iv",
+                                    "im",
+                                    "Teleportation in die Zelle"
+                                ],
+                                Menge_pro_kg: [2.0, 3.0, 4.0]
+                            }
+                        },
+                        Pferd: {
+                            Schmerztherapie: {
+                                Behandlungsoptionen: [
+                                    "iv",
+                                    "im",
+                                    "Teleportation in die Zelle"
+                                ],
+                                Menge_pro_kg: [10.0, 12.0, 4.0]
+                            },
+                            Geburtseinleitung: {
+                                Behandlungsoptionen: ["iv", "im"],
+                                Menge_pro_kg: [11.0, 13.0]
+                            }
+                        }
+                    },
+                    Prilium: {
+                        Rind: {
+                            Schmerztherapie: {
+                                Behandlungsoptionen: [
+                                    "iv",
+                                    "im",
+                                    "Teleportation in die Zelle"
+                                ],
+                                Menge_pro_kg: [10.0, 12.0, 4.0]
+                            },
+                            Geburtseinleitung: {
+                                Behandlungsoptionen: ["iv", "im"],
+                                Menge_pro_kg: [8.0, 14.0]
+                            }
+                        },
+                        Katze: {
+                            Schmerztherapie: {
+                                Behandlungsoptionen: [
+                                    "iv",
+                                    "im",
+                                    "Teleportation in die Zelle"
+                                ],
+                                Menge_pro_kg: [2.0, 3.0, 4.0]
+                            }
+                        },
+                        Pferd: {
+                            Schmerztherapie: {
+                                Behandlungsoptionen: [
+                                    "iv",
+                                    "im",
+                                    "Teleportation in die Zelle"
+                                ],
+                                Menge_pro_kg: [10.0, 12.0, 4.0]
+                            },
+                            Geburtseinleitung: {
+                                Behandlungsoptionen: ["iv", "im"],
+                                Menge_pro_kg: [11.0, 13.0]
+                            }
+                        }
+                    },
+                    Ronaxan: {
+                        Rind: {
+                            Schmerztherapie: {
+                                Behandlungsoptionen: [
+                                    "iv",
+                                    "im",
+                                    "Teleportation in die Zelle"
+                                ],
+                                Menge_pro_kg: [10.0, 12.0, 4.0]
+                            },
+                            Geburtseinleitung: {
+                                Behandlungsoptionen: ["iv", "im"],
+                                Menge_pro_kg: [8.0, 14.0]
+                            }
+                        },
+                        Katze: {
+                            Schmerztherapie: {
+                                Behandlungsoptionen: [
+                                    "iv",
+                                    "im",
+                                    "Teleportation in die Zelle"
+                                ],
+                                Menge_pro_kg: [2.0, 3.0, 4.0]
+                            }
+                        },
+                        Pferd: {
+                            Schmerztherapie: {
+                                Behandlungsoptionen: [
+                                    "iv",
+                                    "im",
+                                    "Teleportation in die Zelle"
+                                ],
+                                Menge_pro_kg: [10.0, 12.0, 4.0]
+                            },
+                            Geburtseinleitung: {
+                                Behandlungsoptionen: ["iv", "im"],
+                                Menge_pro_kg: [11.0, 13.0]
+                            }
+                        }
+                    }
+                },
