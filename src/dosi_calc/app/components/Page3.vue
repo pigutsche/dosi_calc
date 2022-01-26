@@ -1,14 +1,13 @@
 <template>
     <Page>
-        <ActionBar title="Home" />
+        <ActionBar title="Ergebnis" />
 
         <StackLayout class="home-panel">
-            <Label :text="medi_type" height="50"
-                horizontalAlignment="center" />
+            <Label :text="this.medi_type" row="1" col="1" class="med" />
             <Label :text="animal_type" height="50"
                 horizontalAlignment="center" />
             <TextField class="weigth_entry" width="70%" keyboardType="number"
-                v-model="textFieldValue" hint="Gewicht eingeben"
+                v-model="textFieldValue" hint="Gewicht in kg eingeben"
                 @returnPress="on_weight_enter" />
             <Button text="Eingabe" @tap="on_weight_enter" />
 
@@ -16,11 +15,11 @@
                 style="height:50%">
                 <v-template>
                     <Label :text="option" style="width: 90%"
-                        backgroundColor="red" />
+                        backgroundColor="lightgrey" />
                 </v-template>
             </ListView>
             <Label text="zu verabreichende Menge" />
-            <Label :text="result" />
+            <Label :text="result + ' mg'" />
 
         </StackLayout>
 
@@ -52,7 +51,6 @@
                 console.log("weight entered");
                 if (this.textFieldValue === "") return;
                 this.animal_weight = this.textFieldValue;
-                this.textFieldValue = "";
                 this.options = this.medikament[this.animal_type][
                     this.behandlungsoption
                 ][
@@ -79,8 +77,11 @@
 
 <style scoped>
     .home-panel {
-
         font-size: 20;
         margin: 15;
+    }
+
+    label.med {
+        font-size: 30%;
     }
 </style>

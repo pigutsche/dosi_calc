@@ -1,14 +1,10 @@
 <template>
     <Page>
-        <ActionBar>
-            <Label text="Tierauswahl" />
-        </ActionBar>
+        <ActionBar title="Tierauswahl" />
 
-        <!-- <GridLayout columns="30, *, 30"
-            rows="30, *, 30, *, *, *, *, *, *, 3*, *, 3*"> -->
         <StackLayout class="home-panel">
             <Label :text="this.medi_type" row="1" col="1" class="med" />
-            <ListView for="animal in Object.keys(medikament)"
+            <ListView for="animal in animals"
                 @itemTap="onButtonTap" style="height:50%">
                 <v-template>
                     <FlexboxLayout flexDirection="row">
@@ -19,7 +15,7 @@
                 </v-template>
             </ListView>
             <ListView
-                for="behandlungsoption in Object.keys(behandlungsoptionen)"
+                for="behandlungsoption in behandlungsoptionen"
                 @itemTap="setBehandlungsoption" style="height:30%">
                 <v-template>
                     <FlexboxLayout flexDirection="row">
@@ -29,13 +25,6 @@
                     </FlexboxLayout>
                 </v-template>
             </ListView>
-            <!-- <Button row="3" col="1" @tap="onButtonTap(0)">
-                Kleiner Wiederkäuer</Button>
-            <Button row="4" col="1" @tap="onButtonTap(1)">
-                Kleines Haustier</Button>
-            <Button row="5" col="1" @tap="onButtonTap(2)">Rind</Button> -->
-            <!-- <v-Button row="10" col="1">Zurück</v-Button> -->
-            <!-- </GridLayout> -->
         </StackLayout>
     </Page>
 </template>
@@ -49,6 +38,13 @@
 
         components: {
             "v-Button": Button
+        },
+
+        created() {
+            this.animals = Object.keys(this.medikament);
+            if(this.animals[0] == "Besonderheiten") {
+                this.animals.splice(0, 1);
+            }
         },
 
         methods: {
@@ -70,7 +66,11 @@
                 console.log("Successfully set animal-type to: " + this
                     .animal_type);
 
-                this.behandlungsoptionen = this.medikament[this.animal_type];
+                this.behandlungsoptionen = Object.keys(this.medikament[this.animal_type]);
+
+                if(this.behandlungsoptionen[0] == "umwidmung") {
+                    this.behandlungsoptionen.splice(0, 1);
+                }
             },
 
             setBehandlungsoption(val) {
@@ -92,17 +92,12 @@
 </script>
 
 <style scoped lang="scss">
+    .home-panel {
+        font-size: 20;
+        margin: 15;
+    }
+
     label.med {
         font-size: 30%;
     }
-
-    /* button.normal {
-        background-color: rgb(103, 255, 103);
-        color: black;
-    }
-
-    button.redadicated {
-        background-color: rgb(255, 103, 103);
-        color: black;
-    } */
 </style>

@@ -565,7 +565,6 @@
 
 <style scoped>
     .home-panel {
-
         font-size: 20;
         margin: 15;
     }
