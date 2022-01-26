@@ -1,4 +1,4 @@
-# Featurliste
+# Featureliste
 
 folgende Liste beschreibt die gewünschten Features, deren Priorität sowie den aktuellen Status der Umsetzung
 
