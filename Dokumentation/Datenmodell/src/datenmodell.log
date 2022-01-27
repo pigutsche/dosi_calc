@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.1.14)  27 JAN 2022 17:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.1.14)  27 JAN 2022 17:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -245,7 +245,7 @@ LaTeX Info: Redefining \nameref on input line 7.
 \@outlinefile=\write3
 \openout3 = `datenmodell.out'.
 
-<er_diagramm.png, id=8, 482.80376pt x 818.05624pt>
+<er_diagramm.png, id=9, 482.80376pt x 818.05624pt>
 File: er_diagramm.png Graphic file (type png)
 <use er_diagramm.png>
 Package pdftex.def Info: er_diagramm.png  used on input line 17.
@@ -253,7 +253,7 @@ Package pdftex.def Info: er_diagramm.png  used on input line 17.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./er_diagramm.png>]
-<flow_chart.png, id=17, 884.30376pt x 1020.81375pt>
+<flow_chart.png, id=18, 884.30376pt x 1020.81375pt>
 File: flow_chart.png Graphic file (type png)
 <use flow_chart.png>
 Package pdftex.def Info: flow_chart.png  used on input line 28.
@@ -290,13 +290,13 @@ Here is how much of TeX's memory you used:
  20299 multiletter control sequences out of 15000+600000
  532943 words of font info for 26 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 34i,5n,29p,214b,316s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 34i,5n,29p,301b,316s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on datenmodell.pdf (2 pages, 126713 bytes).
+Output written on datenmodell.pdf (2 pages, 126475 bytes).
 PDF statistics:
- 36 PDF objects out of 1000 (max. 8388607)
- 26 compressed objects within 1 object stream
+ 37 PDF objects out of 1000 (max. 8388607)
+ 27 compressed objects within 1 object stream
  6 named destinations out of 1000 (max. 500000)
  19 words of extra memory for PDF output out of 10000 (max. 10000000)
 
