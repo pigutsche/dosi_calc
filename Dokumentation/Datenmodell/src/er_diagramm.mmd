@@ -1,0 +1,13 @@
+# das vorliegende Mermaid File kann mittels mermaid-cli zu einem Diagramm gerendert werden
+# alternativ kann dies unter https://mermaid.live/ getan werden
+
+
+erDiagram
+          Medikament }|--o{ Tierartenzulassung : "hat 1...n"
+          Medikament }|--o{ Besonderheiten : "hat 0...n"
+          Tierartenzulassung }|--o{ Umwidmung : "ist oder ist nicht"
+          Tierartenzulassung }|--o{ Therapieoptionen : "hat 1...n"
+          Therapieoptionen }|--o{ Behandlungsoptionen : "hat 1...n"
+          Behandlungsoptionen }|--o{ Dosierung : "hat genau 1"
+          Behandlungsoptionen }|--o{ Zusatzinformatioen : "wird beschrieben durch"
+            

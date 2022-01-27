@@ -1,0 +1,26 @@
+# das vorliegende Mermaid File kann mittels mermaid-cli zu einem Diagramm gerendert werden
+# alternativ kann dies unter https://mermaid.live/ getan werden
+
+
+
+graph TD
+    A{Tiearzt} ==>|waehlt Medikament ein| B{Metacam}
+    A-.-> C(Odimar)
+    A-.-> U(...)
+    A-.-> X(Medikament N)
+    B ==> |waehlt das Tier| D{Rind}
+    B -.-> E(Katze)
+    B -.-> F(Pferd)
+    B === L[["Reserveantibiotika <br> Nicht für Lebensmittel"]]
+    D -->|waehlt Therapieoption| G{Schmerztherapie}
+    D -.-> H(Geburtseinleitung)
+    G ==>|waehlt Behandlungsoption| I{iv}
+    G -.-> J(im)
+    G -.-> K(Teleportation in die Zelle)
+    D === M[[Umwidmung]]
+    I === N[[Lorem ipsum dolor sit amet, <br/> consetetur sadipscing elitr,<br/> sed diam nonumy eirmod tempor <br/> invidunt ut labore]]
+
+classDef orange fill:#f96,stroke:#333,stroke-width:2px
+class L,M,N orange
+
+
