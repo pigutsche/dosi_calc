@@ -9,4 +9,3 @@
 * Inputfelder von Screen 1 und 3 zusammenfassen zu einer Komponente -> SearchBar
 * Dialogs für Abfrage, ob wirklich zurück zur Startseite
 
-Screens können mithilfe von TabView leichter switchbar gestaltet werden (verzicht auf Startseite-Button)
