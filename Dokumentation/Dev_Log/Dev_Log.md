@@ -18,7 +18,7 @@
 * Rechenweg gut für Transparenz -> FeatureList
 
 
-# 2021-03-12
+# 2021-12-03
 ## Aufgaben:
 * Piet - Nativescript Einarbeitung & Prototyp für Screen 3
 * Dirk - Nativescript Einarbeitung & Prototyp für Screen 2
@@ -34,6 +34,8 @@
 * Piet - mit Kunden besprochen
 * Piet - festgestellt das noch eine Entscheidungsebene eingefügt werden muss
 * Piet - -> Art der Behandlung - zB Schmerztherapie,Geburtseinleitung
+* Dirk - Page 2 erstellt
+* Mauritius - Page 1 erstellt
 
 ## Entscheidungen
 * Art der Behandlung vor Abfrage des Gewichtes abfragen 
@@ -41,13 +43,14 @@
 ## Todos
 * Art der Behandlung einfügen
 * ListView überarbeiten ->Buttons statt Labels benutzen
+* Zusammenfassen von allen Screens
 
 
-# 2022-01-21
+# 2021-12-17
 ## Aufgaben:
-* Piet - JSON Auslagern
-* Dirk - Style-Upgrade
-* Mauritius - Legende erstellen erste Seite
+* Mauritius - Zusammenfassen der seperaten Pages
+* Dirk - Page 2 überarbeiten
+* Piet - Datenmodell überarbeiten
 
 
 # 2022-01-19
@@ -61,6 +64,13 @@
 * Dirk - Weshalb nativescript-vue (damit auch weshalb vue2)
 * Piet - Fortführung des Projektes
 * Jeder - Was hat man persönlich aus dem Projekt mitgenommen
+
+
+# 2022-01-21
+## Aufgaben:
+* Piet - JSON Auslagern
+* Dirk - Style-Upgrade
+* Mauritius - Legende erstellen erste Seite
 
 
 # 2022-01-26
