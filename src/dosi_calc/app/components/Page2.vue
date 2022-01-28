@@ -3,24 +3,27 @@
         <ActionBar title="Tierauswahl" />
 
         <StackLayout class="home-panel">
-            <Label :text="this.medi_type" row="1" col="1" class="med" />
-            <ListView for="animal in animals"
-                @itemTap="onButtonTap" style="height:50%">
+            <Label :text="this.medi_type" class="med" />
+            <ListView for="animal in animals" @itemTap="onButtonTap"
+                style="height:65%">
                 <v-template>
                     <FlexboxLayout flexDirection="row">
-                        <!-- <Image :src="imageVar" class="thumb img-circle" /> -->
                         <Label :text="animal" class="t-12"
-                            style="width: 60%" />
+                            style="width:60%" />
+                        <Image class="thumb img" height="5em"
+                            stretch="aspectFit" :src="bilder[animal]" />
+                        <Image class="thumb img-circle" height="5em"
+                            src="~/images/umwidmung.jpg"
+                            v-if="medikament[animal].Umwidmung"
+                            stretch="none" />
                     </FlexboxLayout>
                 </v-template>
             </ListView>
-            <ListView
-                for="behandlungsoption in behandlungsoptionen"
-                @itemTap="setBehandlungsoption" style="height:30%">
+            <ListView for="therapieoption in therapieoptionen"
+                @itemTap="setTherapieoption" style="height:30%">
                 <v-template>
                     <FlexboxLayout flexDirection="row">
-                        <!-- <Image :src="imageVar" class="thumb img-circle" /> -->
-                        <Label :text="behandlungsoption" class="t-12"
+                        <Label :text="therapieoption" class="t-12"
                             style="width: 60%" />
                     </FlexboxLayout>
                 </v-template>
@@ -30,19 +33,14 @@
 </template>
 
 <script>
-    import Button from "./Button";
     import Page3 from "./Page3";
 
     export default {
         props: ["medi_type", "medikament"],
 
-        components: {
-            "v-Button": Button
-        },
-
         created() {
             this.animals = Object.keys(this.medikament);
-            if(this.animals[0] == "Besonderheiten") {
+            if (this.animals[0] == "Besonderheiten") {
                 this.animals.splice(0, 1);
             }
         },
@@ -55,7 +53,7 @@
                         medikament: this.medikament,
                         medi_type: this.medi_type,
                         animal_type: this.animal_type,
-                        behandlungsoption: this.behandlungsoption
+                        therapieoption: this.therapieoption
                     }
                 });
             },
@@ -66,38 +64,34 @@
                 console.log("Successfully set animal-type to: " + this
                     .animal_type);
 
-                this.behandlungsoptionen = Object.keys(this.medikament[this.animal_type]);
+                this.therapieoptionen = Object.keys(
+                    this.medikament[this.animal_type]
+                );
 
-                if(this.behandlungsoptionen[0] == "umwidmung") {
-                    this.behandlungsoptionen.splice(0, 1);
+                if (this.therapieoptionen[0] == "Umwidmung") {
+                    this.therapieoptionen.splice(0, 1);
                 }
             },
 
-            setBehandlungsoption(val) {
-                this.behandlungsoption = val.item;
+            setTherapieoption(val) {
+                this.therapieoption = val.item;
 
-                console.log("behandlungsoption gesetzt");
-                console.log(this.behandlungsoption);
+                console.log("therapieoption gesetzt");
+                console.log(this.therapieoption);
                 this.nextPage();
             }
         },
 
         data() {
             return {
+                bilder: {
+                    Rind: "~/images/Rind.png",
+                    Katze: "~/images/Katze.png",
+                    Pferd: "~/images/Pferd.png"
+                },
                 animal_type: "",
-                behandlungsoptionen: []
+                therapieoptionen: []
             };
         }
     };
 </script>
-
-<style scoped lang="scss">
-    .home-panel {
-        font-size: 20;
-        margin: 15;
-    }
-
-    label.med {
-        font-size: 30%;
-    }
-</style>

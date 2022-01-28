@@ -1,21 +1,25 @@
 @import '@nativescript/theme/core';
 @import '@nativescript/theme/default';
 
-// Place any CSS rules you want to apply on both iOS and Android here.
-// This is where the vast majority of your CSS code goes.
-
-// Font icon class
-.fab {
-  font-family: 'Font Awesome 5 Brands', 'fa-brands-400';
-  font-weight: 400;
+.home-panel {
+    font-size: 20;
+    margin: 15;
 }
 
-.fas {
-  font-family: 'Font Awesome 5 Free', 'fa-solid-900';
-  font-weight: 900;
+.legende_title {
+    horizontal-align: center;
 }
 
-.far {
-  font-family: 'Font Awesome 5 Free', 'fa-regular-400';
-  font-weight: 400;
+.legende {
+    font-size: 18;
+    horizontal-align: left;
 }
+
+label.med {
+    font-size: 30%;
+}
+
+.btn {
+    font-size: 18;
+}
+
